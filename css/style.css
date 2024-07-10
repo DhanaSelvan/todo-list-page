@@ -1,0 +1,31 @@
+label {
+  font-size: 20px;
+}
+body {
+  background-color: rgb(152, 111, 235);
+  color: aliceblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row div {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 50px;
+  width: fit-content;
+  background-color: rgba(10, 70, 100, 0.9);
+  position: relative;
+}
+del {
+  color: rgb(0, 0, 0);
+}
+.title {
+  padding: 5px;
+  background-color: rgb(10, 60, 100);
+  position: absolute;
+  top: -10px;
+  left: 10px;
+}
